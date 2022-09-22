@@ -50,6 +50,8 @@
     /* = 32px */
     --global-whitespace-xl: calc(var(--global-whitespace) * 2);
     /* = 48px */
+    --global-buttonspace: calc(var(--global-baseline) * 1.5 - 1px);
+    /* = 11px */
 }
 
 /* CSS variables here */
@@ -620,7 +622,7 @@ label, input {
     color: #FFFFFF;
     background-color: var(--global-color-alpha);
     line-height: var(--global-whitespace);
-    padding: 11px var(--global-whitespace-md);
+    padding: var(--global-buttonspace) var(--global-whitespace-md);
     width: 100%;
     outline: none;
 }
