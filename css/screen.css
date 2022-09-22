@@ -620,7 +620,7 @@ label, input {
     color: #FFFFFF;
     background-color: var(--global-color-alpha);
     line-height: var(--global-whitespace);
-    padding: 12px var(--global-whitespace-md);
+    padding: 11px var(--global-whitespace-md);
     width: 100%;
     outline: none;
 }
